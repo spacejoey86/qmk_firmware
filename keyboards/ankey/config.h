@@ -18,3 +18,8 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+// Split serial PIO
+// #define SERIAL_DEBUG
+#define SERIAL_USART_TX_PIN GP22
+#define SERIAL_PIO_USE_PIO1

@@ -19,9 +19,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       *                   └───┘   └───┘
       */
     [0] = LAYOUT_split_3x5_3(
-                       KC_DOT,  KC_M,    KC_COMM, KC_N,    KC_SLSH,
-                       KC_BACKSPACE,    KC_K,    KC_J,    KC_L,    KC_H,
-                       KC_SCLN, KC_ENTER,    KC_I,    KC_U,    KC_O,
-              KC_Y,  KC_P,  KC_LEFT_SHIFT
+      KC_V, KC_B, KC_C, KC_X, KC_DELETE,   KC_Z,
+      KC_F, KC_G, KC_D, KC_S, KC_SPACE,    KC_A,
+      KC_R, KC_T, KC_E, KC_W, KC_LEFT_ALT, KC_Q,
+
+      KC_COMMA, KC_M, KC_DOT, KC_N, KC_SLASH,     KC_BACKSPACE,
+      KC_K,     KC_J, KC_L,   KC_H, KC_SEMICOLON, KC_ENTER,
+      KC_I,     KC_U, KC_O,   KC_Y, KC_P,         KC_LEFT_SHIFT
     )
 };
